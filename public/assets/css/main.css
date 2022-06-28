@@ -7,17 +7,6 @@
 /* ---------------------------------------------------------------------- */
 /*	Basic Elements & Classes
 /* ---------------------------------------------------------------------- */
-body {
-	color: #000000;
-	direction: ltr;
-	font-family: 'Anek Malayalam';
-	font-size: 13px;
-	padding: 0px !important;
-	margin: 0px !important;
-	background: #ffffff;
-	overflow-x: hidden;
-    overflow-y: scroll;
-}
 @font-face {
     font-family: 'robotoregular';
     src: url('fonts/roboto-regular-webfont.woff2') format('woff2'),
@@ -26,6 +15,7 @@ body {
     font-style: normal;
 
 }
+
 @font-face {
     font-family: 'SairaCondensed-Regular';
     src: url('fonts/SairaCondensed-Regular.woff2') format('woff2'),
@@ -34,6 +24,18 @@ body {
     font-style: normal;
 
 }
+body {
+	color: #000000;
+	direction: ltr;
+	font-family: 'robotoregular';
+	font-size: 13px;
+	padding: 0px !important;
+	margin: 0px !important;
+	background: #ffffff;
+	overflow-x: hidden;
+    overflow-y: scroll;
+}
+
 
 body.bg_style_1 {
 	background: url("../images/bg.png") rgba(0, 0, 0, 0) !important;
