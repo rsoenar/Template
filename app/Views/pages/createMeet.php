@@ -41,9 +41,9 @@
                 </div>
             </div>
             <div class="panel-body">
-                <h2><i class="fa fa-pencil-square teal"></i> REGISTER</h2>
+                <h2><i class="fa fa-pencil-square teal"></i> TAMBAH RAPAT</h2>
                 <p>
-                    Create one account to manage everything you do with ClipOne, from your shopping preferences to your ClipOne activity.
+                    Membuat undangan rapat baru.
                 </p>
                 <hr>
                 <form action="#" role="form" id="form">
@@ -59,7 +59,7 @@
                         <div class="col-md-6">
                             <div class="form-group">
                                 <label class="control-label">
-                                    First Name <span class="symbol required"></span>
+                                    Subject Rapat <span class="symbol required"></span>
                                 </label>
                                 <input type="text" placeholder="Insert your First Name" class="form-control" id="firstname" name="firstname">
                             </div>
